@@ -1,0 +1,224 @@
+/* Font */
+@font-face {
+  font-family: "Spectral";
+  src: url("/fonts/Spectral-Regular.ttf") format("truetype");
+  font-weight: 400; /* Normal weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("/fonts/Spectral-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("/fonts/Spectral-Bold.ttf") format("truetype");
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("/fonts/Spectral-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("/fonts/Spectral-ExtraBold.ttf") format("truetype");
+  font-weight: 800; /* Extra Bold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("/fonts/Spectral-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("/fonts/Spectral-ExtraLight.ttf") format("truetype");
+  font-weight: 200; /* Extra Light weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("/fonts/Spectral-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("/fonts/Spectral-Light.ttf") format("truetype");
+  font-weight: 300; /* Light weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("/fonts/Spectral-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("/fonts/Spectral-Medium.ttf") format("truetype");
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("/fonts/Spectral-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("/fonts/Spectral-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* Semi Bold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("/fonts/Spectral-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-Black.ttf") format("truetype");
+  font-weight: 900; /* Black weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-BlackItalic.ttf") format("truetype");
+  font-weight: 900; /* Black weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-Bold.ttf") format("truetype");
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-BoldItalic.ttf") format("truetype");
+  font-weight: 700; /* Bold weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800; /* ExtraBold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800; /* ExtraBold weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-ExtraLight.ttf") format("truetype");
+  font-weight: 200; /* ExtraLight weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200; /* ExtraLight weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-Italic.ttf") format("truetype");
+  font-weight: 400; /* Normal weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-Light.ttf") format("truetype");
+  font-weight: 300; /* Light weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-LightItalic.ttf") format("truetype");
+  font-weight: 300; /* Light weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-Medium.ttf") format("truetype");
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-MediumItalic.ttf") format("truetype");
+  font-weight: 500; /* Medium weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-Regular.ttf") format("truetype");
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* SemiBold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600; /* SemiBold weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-Thin.ttf") format("truetype");
+  font-weight: 100; /* Thin weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-ThinItalic.ttf") format("truetype");
+  font-weight: 100; /* Thin weight */
+  font-style: italic;
+}
