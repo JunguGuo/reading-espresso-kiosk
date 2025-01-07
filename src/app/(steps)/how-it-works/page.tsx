@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect } from "react";
-import { useFlow } from "../../../hooks/useFlow"; // Adjust path as needed
+//import { useEffect } from "react";
+//import { useFlow } from "../../../hooks/useFlow"; // Adjust path as needed
 // import { useUserInput } from "../../../context/UserInputContext";
 export default function HowItWorksPage() {
   //const { currentStepNumber, totalSteps } = useFlow();
