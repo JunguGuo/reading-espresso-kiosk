@@ -19,7 +19,7 @@ export default function LibraryCardPage() {
 
   return (
     <div className="flex flex-col items-center min-h-screen w-full px-8 py-8 bg-white text-center">
-      <h1 className="text-3xl md:text-4xl font-bold mb-6 text-black">
+      <h1 className="text-4xl sm:text-5xl font-bold mb-8 sm:mb-12">
         Got a library card?
       </h1>
 
@@ -43,6 +43,13 @@ export default function LibraryCardPage() {
           </div>
         </div>
         <h5 className="text-gray-700 mt-8">or leave blank to skip</h5>
+        {/* Skip Button */}
+        <button
+          onClick={() => console.log("Skip clicked")}
+          className="mt-10 inline-block px-8 py-2 w-36 text-blue-500 border border-blue-500 rounded-full text-lg font-medium hover:bg-blue-50 transition-colors"
+        >
+          Skip
+        </button>
       </div>
     </div>
   );

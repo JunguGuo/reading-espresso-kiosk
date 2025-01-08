@@ -13,7 +13,7 @@ export interface AgeOption {
 // --- Flow Steps ---
 export const FLOW_STEPS: FlowStep[] = [
   { route: "/how-it-works", title: "How it Works", optional: true },
-  { route: "/library-card", title: "Library Card", optional: true },
+  // { route: "/library-card", title: "Library Card", optional: true },
   { route: "/age-group", title: "Age Group", optional: false },
   { route: "/mood", title: "Mood", optional: false },
   // { route: "/puzzle-selection", title: "Puzzle Selection", optional: true },

@@ -29,7 +29,7 @@ export default function AgeGroupPage() {
 
   return (
     <div className="flex flex-col items-center min-h-screen w-full px-8 py-8 bg-white text-center">
-      <h1 className="text-3xl md:text-4xl font-bold mb-6 text-black">
+      <h1 className="text-4xl sm:text-5xl font-bold mb-8 sm:mb-12">
         What’s your age group?
       </h1>
 

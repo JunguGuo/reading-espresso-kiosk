@@ -50,7 +50,7 @@ function StepsLayout({ children }: { children: ReactNode }) {
   };
 
   return (
-    <div className="min-h-screen bg-white w-full flex flex-col mt-5 pt-7">
+    <div className="min-h-screen bg-white w-full flex flex-col mt-5 pt-7 px-16">
       {/* Top bar */}
       <div className="relative w-full px-4 py-4 border-b border-gray-200">
         <div className="absolute left-0 bottom-0 h-1 bg-gray-200 w-full"></div>
