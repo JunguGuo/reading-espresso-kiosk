@@ -16,13 +16,13 @@ export const FLOW_STEPS: FlowStep[] = [
   { route: "/library-card", title: "Library Card", optional: true },
   { route: "/age-group", title: "Age Group", optional: false },
   { route: "/mood", title: "Mood", optional: false },
-  { route: "/puzzle-selection", title: "Puzzle Selection", optional: true },
+  // { route: "/puzzle-selection", title: "Puzzle Selection", optional: true },
 ];
 
 // --- Age Options ---
 
 export const AGE_OPTIONS: AgeOption[] = [
-  { label: "0-6 (Early Childhood)", value: 0 },
+  // { label: "0-6 (Early Childhood)", value: 0 },
   { label: "7-12 (Elementary)", value: 7 },
   { label: "13-18 (Teens)", value: 13 },
   { label: ">18 (Adults)", value: 19 },
