@@ -12,7 +12,7 @@ export default function FinalPage() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "http://127.0.0.1:3001/api/v1/tapes/construct",
+          "https://guarded-dawn-90951-86b2b35b4d83.herokuapp.com/api/v1/tapes/construct",
           {
             method: "POST",
             headers: {
@@ -36,7 +36,9 @@ export default function FinalPage() {
         console.log("Tape ID:", tapeId); // Log the response
 
         // Redirect to another page or display the result if needed
-        router.push(`http://127.0.0.1:3001/tape/${tapeId}`);
+        router.push(
+          `https://guarded-dawn-90951-86b2b35b4d83.herokuapp.com/tape/${tapeId}`
+        );
       } catch (error) {
         console.error("Fetch Error:", error);
       }
